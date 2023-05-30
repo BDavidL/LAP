@@ -214,17 +214,14 @@ html{
   }
   
   .imagen {
-    max-width: 800px;
+    max-width: 400px;
     transition: transform 0.3s;
   }
   
   .imagen:hover {
     transform: scale(1.2);
   }
-  .imagen {
-    max-width: 600px;
-    transition: transform 0.3s;
-  }
+
 h1, h2 {
     opacity: 0;
     animation-name: fade-in;
